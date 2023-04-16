@@ -1,0 +1,46 @@
+extend base.pug
+
+block scripts
+   script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content
+   
+    section#introSection
+        div Welcome to Nitees Dance Academy
+        div.small Eat Sleep Dance Repeat
+    section#missionSection 
+         h2 Our Mission 
+         div.card      
+             h3 Dance perfection
+             div.card-box
+                 div.card-img
+                     img(src="/static/wlogo.png")
+                 div.card-content
+                     p Lorem ipsum doorleempore cupiditate?     
+        
+         div.card      
+             h3 Dance the way you like
+             div.card-box
+                 div.card-img
+                     img(src="/static/logo6.png")
+                 div.card-content
+                     p Loreetur, adipinobis non molestias u tempore cupiditate?     
+        
+         div.card      
+             h3 Expert Teaching
+             div.card-box
+                 div.card-img
+                     img(src="/static/logo7.png")
+                 div.card-content
+                     p Lorem ipsum dolo non molestias gni vitae veniam, sapie    
+        
+    section#sponsorsSection
+         h2 Our Sponsors
+         div#sponsors
+             img(src="/static/apple.png",alt="sponsor image",class="spimage")
+             img(src="/static/google.png",alt="sponsor image",class="spimage")
+             img(src="/static/fblogo.png",alt="sponsor image",class="spimage")

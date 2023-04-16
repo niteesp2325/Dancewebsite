@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+h2{
+    text-align: center;
+    margin: 20px,0;
+}
+.container{
+    min-height: 80vh;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    margin:43px 0;
+
+}
+.container h2{
+    font-family: 'Alkatra', cursive;
+    font-size: 34px;
+}
+.myInput{
+    font-size: 16px;
+    width:40%;
+    padding :9px;
+    margin:8px;
+    border:2px solid brown;
+    border-radius:12px;
+    outline: none;
+
+}
+ 
+.myForm{
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width:100%;
+}
+.btn{
+    border:2px solid rgb(21, 13, 13);
+    color:white;
+    padding:8px 16px;
+    font-size:18px;
+    border-radius:10px;
+    background-color: rgb(151, 44, 126);
+    cursor: pointer;
+    outline: none;
+    margin: 2px;
+
+}
